@@ -1,7 +1,7 @@
 Package.describe({
   name: 'pdftk:pdftk',
-  version: '0.6.0',
-  summary: 'Wrpper for PDFTK: PDF file merge, split, encrypt, decrypt, rotate, watermark, stamp and more',
+  version: '0.7.0',
+  summary: 'Wrapper for PDFTK: PDF file merge, split, encrypt, decrypt, rotate, watermark, stamp and more',
   git: 'https://github.com/MeteorPackaging/pdftk',
   documentation: 'README.md'
 });
@@ -16,7 +16,7 @@ Package.onTest(function(api) {
   api.use('tinytest', 'server');
   api.use('pdftk:pdftk', 'server');  // yes, our package tests have to explicitly use our package - https://github.com/meteor/meteor/issues/1620
   api.addFiles([
-    'pdftk_pdftk-tests.js',
+    'tests/pdftk_pdftk-tests.js',
     'tests/in.pdf', 'tests/stamp.pdf', 'tests/out-stamp.pdf'
   ], 'server');
 });

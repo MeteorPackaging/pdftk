@@ -88,8 +88,9 @@ Contributors are very welcome. Some guidelines below:
 
 ## TODO
 
-1. Fix Fibers issue with testing
+1. Make sync version
 2. Wrap more commands
+3. Document the Buffer return value - anything we can actually do with it, vs. the callback?
 
 
 ## Contributors
