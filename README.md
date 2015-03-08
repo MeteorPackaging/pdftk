@@ -53,7 +53,7 @@ Consult the [man page](https://www.pdflabs.com/docs/pdftk-man-page/) for command
 * [`cat`](https://www.pdflabs.com/docs/pdftk-man-page/#dest-op-cat)`(pdf, start, end, callback)` (aliased: `pages`)
 * [`stamp`](https://www.pdflabs.com/docs/pdftk-man-page/#dest-op-stamp)`(pdf, stamp, output, callback)`
 * [`multistamp`](https://www.pdflabs.com/docs/pdftk-man-page/#dest-op-multistamp)`(pdf, stamp, output, callback)`
-* [`fillform`](https://www.pdflabs.com/docs/pdftk-man-page/#dest-op-fill-form)`(pdf, xfdf, output, callback)`
+* [`fillForm`](https://www.pdflabs.com/docs/pdftk-man-page/#dest-op-fill-form)`(pdf, xfdf, output, callback)`
 
 Pull requests are welcome for more wrappers. If you need to execute a custom command, or one that's not wrapped, run:
 
