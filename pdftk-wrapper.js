@@ -43,7 +43,7 @@ PDFTK.pages = PDFTK.cat = function pages(pdf, start, end, callback) {
  * @return {Npm.buffer} Node.js Buffer with the result of executing the pdftk command
  */
 PDFTK.fillForm = function fillForm(pdf, xfdf, output, callback) {
-  return PDFTK.execute([pdf, 'fill_form ', xfdf, 'output', output], callback);
+  return PDFTK.execute([pdf, 'fill_form', xfdf, 'output', output], callback);
 };
 
 /**
